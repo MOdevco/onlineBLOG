@@ -151,7 +151,7 @@ export default function App() {
 
       <div >
         <Routes> 
-          <Route path="/home" element={<Home  handleDate={handleDate} handleSAve={handleSAve} save={save}/>}></Route>
+          <Route path="/" element={<Home  handleDate={handleDate} handleSAve={handleSAve} save={save}/>}></Route>
           <Route path="/stati" element={<Stati handleDate={handleDate} handleSAve={handleSAve} save={save}/>}></Route>
         </Routes>
       </div>
